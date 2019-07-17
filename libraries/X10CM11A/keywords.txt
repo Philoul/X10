@@ -1,0 +1,42 @@
+#################################################
+# Syntax coloring for X10CM11A Library
+#################################################
+
+#################################################
+# Datatypes (KEYWORD1)
+#################################################
+
+X10CM11A		KEYWORD1
+
+#################################################
+# Methods and Functions (KEYWORD2)
+#################################################
+
+# X10CM11A Class
+Begin			KEYWORD2
+BeginPC			KEYWORD2
+HouseCode		KEYWORD2
+UnitCode		KEYWORD2
+FunctionCode	KEYWORD2
+DevCode			KEYWORD2
+SendDevice		KEYWORD2
+SendFunction	KEYWORD2
+SendExtFunction	KEYWORD2
+SendEEPROMData	KEYWORD2
+SetClock		KEYWORD2
+EnableRing		KEYWORD2
+handleCM11A		KEYWORD2
+ReceiveStd		KEYWORD2
+ReceiveFastM	KEYWORD2
+
+# functions
+
+
+#################################################
+# Constants (LITERAL1)
+#################################################
+
+X10_SOFTWARE_SERIAL	LITERAL1
+X10_HW_SERIAL_PORT	LITERAL1
+X10_PC_SERIAL_PORT	LITERAL1
+X10_DEBUG_SERIAL_PORT	LITERAL1
